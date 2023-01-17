@@ -1,0 +1,106 @@
+# Java
+*.class
+*.ctxt
+*.ear
+*.jar
+*.log
+*.rar
+*.tar.gz
+*.war
+*.zip
+.mtj.tmp/
+hs_err_pid*
+MANIFEST.MF
+
+# Eclipse
+*.bak
+*.launch
+*.pydevproject
+*.swp
+*.tmp
+*~.nib
+.apt_generated/
+.buildpath
+.cache-main
+.classpath
+.cproject
+.externalToolBuilders/
+.factorypath
+.loadpath
+.metadata
+.project
+.recommenders
+.recommenders/
+.scala_dependencies
+.settings/
+.springBeans
+.target
+.tern-project
+.texlipse
+.worksheet
+bin/
+local.properties
+tmp/
+
+# IntelliJ IDEA
+*.iml
+*.iws
+.idea/
+.idea_modules/
+atlassian-ide-plugin.xml
+cmake-build-debug/
+com_crashlytics_export_strings.xml
+crashlytics-build.properties
+crashlytics.properties
+fabric.properties
+out/
+
+# NetBeans
+.nb-gradle/
+build/
+
+# dist/
+nb-build.xml
+nbbuild/
+nbdist/
+nbproject/
+
+# Gradle
+!gradle-wrapper.jar
+.gradle
+.gradletasknamecache
+gradle-app.setting
+# gradle/wrapper/*
+/*/nb-configuration.xml
+/nbproject/
+/*/nbproject/
+/*/target/
+/*/build/
+/netbeans-gradle-default-models/gradle-api/
+.gradle/
+/.nb-gradle-properties
+
+# Maven
+!/.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+buildNumber.properties
+dependency-reduced-pom.xml
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+pom.xml.versionsBackup
+release.properties
+target/
+
+# JRebel
+rebel.xml
+
+# Vagrant
+.vagrant/
+
+# Ansible
+*.retry
+
+# Node
+node/
+node_modules/
