@@ -19,7 +19,7 @@ Project description
 
 - Install Apache Tomcat, I used version 9.0.50 Apache Tomcat 9.0.50 you can download here https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.50/bin/
 - Run application via Tomcat.
-- To change the name, write any time  "*Change name to **new name**"*"12
+- To change the name, write any time  "*Change name to **new name**"*"
 
 
 ## Technologies
