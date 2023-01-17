@@ -26,6 +26,6 @@ Project description
 
 - Java 11.0.12 2021-07-20 LTS
 - Apache Maven 3.8.1
+- Tomcat 9.0.50
 - HTML
 - CSS
-- Batch script
