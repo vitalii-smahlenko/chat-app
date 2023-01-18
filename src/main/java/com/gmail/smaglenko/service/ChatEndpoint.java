@@ -25,18 +25,18 @@ public class ChatEndpoint {
         chatEndpoints.add(this);
         users.put(session.getId(), username);
         Message message = new Message();
-        message.setUser(username);
+        message.setFrom(username);
         message.setContent("Connected!");
         broadcast(message);
     }
 
     @OnMessage
     public void onMessage(Session session, Message message) {
-        message.setUser(users.get(session.getId()));
+        message.setFrom(users.get(session.getId()));
         if (message.getContent().contains("Change name")) {
             String[] splitContent = message.getContent().split(" ");
             String newUserMane = splitContent[3];
-            message.setUser(newUserMane);
+            message.setFrom(newUserMane);
         }
         broadcast(message);
     }
@@ -45,7 +45,7 @@ public class ChatEndpoint {
     public void onClose(Session session) {
         chatEndpoints.remove(this);
         Message message = new Message();
-        message.setUser(users.get(session.getId()));
+        message.setFrom(users.get(session.getId()));
         message.setContent("Disconnected!");
         broadcast(message);
     }
